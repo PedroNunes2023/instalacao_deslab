@@ -31,6 +31,9 @@ fi
 echo "Criando ambiente virtual..."
 python3 -m venv "$VENV"
 
+#Essa linha aqui não é uma boa forma de instalar o deslab, mas serve para testes
+mv "instalacao deslab/deslab" "$VENV/lib/python3.12/site-packages/deslab"
+
 source "$VENV/bin/activate"
 
 pip install networkx
