@@ -2,14 +2,16 @@
 
 echo "Olá!"
 
-#Criação de ambiente virtual de python.
-#Caso já exista é perguntado se deseja criar um novo
+#Instalação do miktex e graphviz
 
 apt get miktex
 apt install miktex
 
 apt get graphviz
 apt install graphviz
+
+#Criação de ambiente virtual de python.
+#Caso já exista é perguntado se deseja criar um novo
 
 VENV="venv_deslab"
 
