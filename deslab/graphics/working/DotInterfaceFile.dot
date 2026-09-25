@@ -1,0 +1,9 @@
+digraph {
+rankdir=LR;
+nodesep=0.25;
+ranksep=0.25;
+s0 [label="q_2", style=state];
+s2 [label="q_3", style=state];
+s0 -> s2 [key="b_1", label="b_1", style="obs_edge arrow"];
+s2 -> s2 [key="a_1", label="a_1", style="obs_edge arrow"];
+}
